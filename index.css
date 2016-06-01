@@ -7,7 +7,7 @@ h2 {
 
 li {
   color: red;
-  text-decoration: none
+  text-decoration: none;
   font-weight: normal;
   font-style: italic;
   /* Find a way to have a text body containing a summary 
