@@ -1,0 +1,15 @@
+h3 {
+  color: blue;
+  /* Find a way to underline */
+  /* Find a way to link to section of the portfolio which
+     was clicked on in the index */
+  /* Bold? */
+}
+
+li {
+  background-color: black;
+  color: white;
+  /* Find a way to have a text body containing a summary 
+     of the section pop up on cursor when moused over */
+  /* Italisize? */
+}
