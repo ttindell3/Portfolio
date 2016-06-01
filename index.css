@@ -1,15 +1,12 @@
 h2 {
   color: blue;
   text-decoration: underline;
-  /* Find a way to link to section of the portfolio which
-     was clicked on in the index */
   text-weight: bolder;
 }
 
 li {
-  background-color: black;
-  color: white;
+  color: teal;
   /* Find a way to have a text body containing a summary 
      of the section pop up on cursor when moused over */
-  /* Italisize? */
+  font-style: italic;
 }
