@@ -4,7 +4,7 @@ h2 {
   text-weight: bolder;
 }
 
-ul {
+li {
   color: red;
   /* Find a way to have a text body containing a summary 
      of the section pop up on cursor when moused over */
