@@ -1,9 +1,9 @@
 h2 {
   color: blue;
-  /* Find a way to underline */
+  text-decoration: underline;
   /* Find a way to link to section of the portfolio which
      was clicked on in the index */
-  /* Bold? */
+  text-weight: bolder;
 }
 
 li {
