@@ -5,7 +5,7 @@ h2 {
 }
 
 li {
-  color: violet;
+  color: red;
   /* Find a way to have a text body containing a summary 
      of the section pop up on cursor when moused over */
   font-style: italic;
