@@ -1,12 +1,15 @@
 h2 {
   color: blue;
   text-decoration: underline;
-  text-weight: bolder;
+  font-weight: bolder;
+  font-stlye: normal;
 }
 
 li {
   color: red;
+  text-decoration: none
+  font-weight: normal;
+  font-style: italic;
   /* Find a way to have a text body containing a summary 
      of the section pop up on cursor when moused over */
-  font-style: italic;
 }
