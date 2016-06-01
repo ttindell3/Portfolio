@@ -1,28 +1,51 @@
 <!DOCTYPE html>
 <html>
+  
+<!-- Index portion of portfolio -->
 <div id="index">
-  <!-- styling for index in separate CSS file -->
   <head>
     <link type="text/css" rel="stylesheet" href="index.css" />
     <title>index</title>
   </head>
   
   <!-- h2 blue, bold, underlined, send to appropriate section of portfolio on click -->
-  <!-- ul italisized -->
-  <!-- li white background, black, summary on mouseover -->
+  <!-- li teal, italic, summary on mouseover -->
   <body>
-    <h2>Experience</h2>
+    <h2><a href="#Experience">Experience</a></h2>
       <em><ul>
-        <li>Languages</li>
-        <li>Formal Education</li>
-        <li>Freelancing</li>
-      </ul></em>
-    <h2><bold>Projects</bold></h2>
-      <em><ul>
-        <li>Websites</li>
-        <li>Software</li>
-      </ul></em>
+        <li>
+          <a href="#Languages">Languages</a>
+        </li>
+        <li>
+          <a href="#Formal Education">Formal Education</a>
+        </li>
+        <li>
+          <a href="#Freelancing">Freelancing</a>
+        </li>
+      </ul>
+    <h2><a href="#Projects">Projects</a></h2>
+      <ul>
+        <li>
+          <a href="#Websites">Websites</a>
+        </li>
+        <li>
+          <a href="#Software">Websites</a>
+        </li>
+      </ul>
   </body>
+</div>
+
+<!-- Experience portion of portfolio (3 subcategories) -->
+<div id="Experience">
+  <div id="Languages"></div>
+  <div id="Formal Education"></div>
+  <div id="Freelancing"></div>
+</div>
+
+<!-- Projects portion of portfolio (2 subcategories) -->
+<div id="Projects">
+  <div id="Websites"></div>
+  <div id="Software"></div>
 </div>
 
 </html>
