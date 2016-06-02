@@ -11,3 +11,9 @@ ul {
   /* Find a way to have a text body containing a summary 
      of the section pop up on cursor when moused over */
 }
+
+index {
+  background-color: red
+  height: 10em;
+  width: 10em;
+}
