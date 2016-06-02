@@ -12,7 +12,7 @@ ul {
      of the section pop up on cursor when moused over */
 }
 
-index {
+#index {
   background-color: red;
   height: 10em;
   width: 10em;
