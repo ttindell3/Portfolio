@@ -32,7 +32,7 @@ ul < #index {
 }
 
 a:visted > #index {
-  color:blue;
+  color:black;
 }
 #index:hover {
   background-color: blue;
