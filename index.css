@@ -31,7 +31,7 @@ h1 {
   text-align: center;
 }
 
-#index > a:hover {
+#index a:hover {
   color: yellow;
 }
 
