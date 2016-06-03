@@ -1,6 +1,6 @@
 /* CSS for entire portfolio */
 * {
-  background-color: white;
+  background-color: #6495ED;
 }
 
 /* CSS for index portion of portfolio */
@@ -19,30 +19,40 @@
   background-color: red;
 }
 */
-
-#index a:hover {
-  color: blue;
-}
-
 #index a:visited {
-  color: black;
+    background-color: white;
+    color: black;
 }
 
 #index a:link {
-  color: black;
+    background-color: white;
+    color: black;
+}
+
+#index body a:hover {
+    background-color: yellow;
+    color: red;
 }
 
 #index h2 {
-  font-style: normal;
-  font-family: Arial;
-  font-weight: bold;
+    background-color: white;
+    color: black;
+    font-style: normal;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+#index ul {
+    background-color: white;
+    color: black;
 }
 
 #index li {
-  font-stlye: italic;
-  font-family: cursive;
-  font-weight: normal;
-  text-align: left;
+    background-color: white;
+    font-stlye: italic;
+    font-family: cursive;
+    font-weight: normal;
+    text-align: left;
 }
 
 /* CSS for experience portion of portfolio */
@@ -53,13 +63,4 @@
   font-family: Arial;
   text-align: center;
 }
-
-
-
-
-
-#index a:hover {
-  color: yellow;
-}
-
 
