@@ -12,7 +12,7 @@ h1 {
   text-align: center;
 }
 
-ul < #index {
+#index > ul {
   color: black;
   font-weight: normal;
   font-style: italic;
@@ -31,11 +31,11 @@ ul < #index {
   text-align: center;
 }
 
-#index:visited {
+/*#index > a:visited {
   color:black;
-}
+}*/
 #index:hover {
-  background-color: blue;
+  background-color: red;
 }
 
 * {
