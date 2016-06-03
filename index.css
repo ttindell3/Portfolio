@@ -1,28 +1,11 @@
-h2 {
-  color: blue;
-  font-weight: bolder;
-  font-stlye: normal;
+/* CSS for entire portfolio */
+* {
+  background-color: #A9A9A9;
 }
 
-h1 {
-  color: black;
-  font-weight: bold;
-  font-style: normal;
-  font-family: Arial;
-  text-align: center;
-}
-
-#index > ul {
-  color: black;
-  font-weight: normal;
-  font-style: italic;
-  text-align: left;
-  /* Find a way to have a text body containing a summary 
-     of the section pop up on cursor when moused over */
-}
-
+/* CSS for index portion of portfolio */
 #index {
-  background-color: blue;
+  background-color: #008B8B;
   height: 15em;
   width: 10em;
   border: 2px solid black;
@@ -31,10 +14,51 @@ h1 {
   text-align: center;
 }
 
+/* what should happen when you hover over the index?
+#index:hover {
+  background-color: red;
+}
+*/
+
+#index a:hover {
+  color: red;
+}
+
+#index a:visited {
+  color: black;
+}
+
+#index a:link {
+  color: black;
+}
+
+#index h2 {
+  font-style: normal;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+#index li {
+  font-stlye: italic;
+  font-family: cursive;
+  font-weight: normal;
+}
+
+/* CSS for experience portion of portfolio */
+#Experience h1 {
+  color: black;
+  font-weight: bold;
+  font-style: normal;
+  font-family: Arial;
+  text-align: center;
+}
+
+
+
+
+
 #index a:hover {
   color: yellow;
 }
 
-#index:hover {
-  background-color: red;
-}
+
