@@ -12,7 +12,7 @@ h1 {
   text-align: center;
 }
 
-ul > #index {
+ul < #index {
   color: black;
   font-weight: normal;
   font-style: italic;
