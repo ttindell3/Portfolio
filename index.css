@@ -12,7 +12,11 @@ h1 {
   text-align: center;
 }
 
-ul {
+li < #index {
+  color: black;
+}
+
+ul < #index {
   color: black;
   font-weight: normal;
   font-style: italic;
@@ -24,13 +28,16 @@ ul {
   background-color: red;
   height: 15em;
   width: 10em;
-  margin: auto;
+  margin: left;
 }
 
+a:visted > #index {
+  color:blue;
+}
 #index:hover {
   background-color: blue;
 }
 
 * {
-  background-color: yellow;
+  background-color: white;
 }
