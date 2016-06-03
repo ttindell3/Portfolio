@@ -31,7 +31,7 @@ h1 {
   text-align: center;
 }
 
-#index > a:visited {
+#index:visited {
   color:black;
 }
 #index:hover {
