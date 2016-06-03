@@ -1,17 +1,111 @@
 /* CSS for entire portfolio */
 * {
-  background-color: #6495ED;
+    background-color: #6495ED;
 }
 
 /* CSS for index portion of portfolio */
 #index {
-  background-color: white;
-  height: 18em;
-  width: 10em;
-  border: 2px solid black;
-  border-radius: 5px;
-  margin: left;
-  text-align: center;
+    position: relative;
+    top: 1px;
+    left: 0px;
+    
+    background-color: #20B2AA;
+    height: 218px;
+    width: 170px;
+    border: 5px solid #B0E0E6;
+    border-radius: 5px;
+    margin: left;
+    text-align: center;
+}
+
+#index tr {
+    color: #20B2AA;
+    background-color: #20B2AA;
+    border: 1px solid #20B2AA;
+}
+#index td {
+    background-color: #20B2AA;
+    height: 60px;
+    padding: 0px 0px 0px 0px;
+    vertical-align: top;
+}
+
+
+#experience {
+    position: relative;
+    left: -5px;
+    top: -5px;
+}
+
+#languages {
+    position: relative;
+    left: -10px;
+    top: 0px;
+}
+
+#languagerow {
+    position: relative;
+    width: 130px;
+    left: 0px;
+    top: -25px;
+}
+
+#formal_education {
+    position: relative;
+    left: -10px;
+    top: 0px;
+}
+
+#educationrow {
+    position: relative;
+    width: 130px;
+    left: 0px;
+    top: -40px;
+}
+
+#freelancing{
+    position: relative;
+    left: -10px;
+    top: 0px;
+}
+
+#freelancingrow{
+    position: relative;
+    width: 130px;
+    left: 0px;
+    top: -55px;
+}
+
+#projects{
+    position: relative;
+    left: -20px;
+    top: -70px;
+}
+
+#websites {
+    position: relative;
+    left: -10px;
+    top: 0px;
+}
+
+#websitesrow {
+    position: relative;
+    width: 130px;
+    left: 0px;
+    top: -85px;
+}
+
+#software {
+    position: relative;
+    left: -10px;
+    top: 0px;
+}
+
+#softwarerow {
+    position: relative;
+    width: 130px;
+    left: -0px;
+    top: -100px;
 }
 
 /* what should happen when you hover over the index?
@@ -19,23 +113,29 @@
   background-color: red;
 }
 */
-#index a:visited {
-    background-color: white;
-    color: black;
-}
 
 #index a:link {
-    background-color: white;
+    background-color: #20B2AA;
     color: black;
 }
 
-#index body a:hover {
-    background-color: yellow;
+#index a:visited {
+    background-color: #20B2AA;
+    color: black;
+}
+
+#index li a:hover {
+    background-color: #20B2AA;
     color: red;
 }
 
+#index h2 a:hover {
+    background-color: #20B2AA;
+    color: blue;
+}
+
 #index h2 {
-    background-color: white;
+    background-color: #20B2AA;
     color: black;
     font-style: normal;
     font-family: Arial;
@@ -43,20 +143,20 @@
 }
 
 #index ul {
-    background-color: white;
+    background-color: #20B2AA;
     color: black;
 }
 
 #index li {
-    background-color: white;
+    background-color: #20B2AA;
     font-stlye: italic;
     font-family: cursive;
     font-weight: normal;
     text-align: left;
 }
 
-/* CSS for experience portion of portfolio */
-#Experience h1 {
+/* heading class for two major portions of portfolio */
+.heading1 {
   color: black;
   font-weight: bold;
   font-style: normal;
@@ -64,3 +164,6 @@
   text-align: center;
 }
 
+.heading2 {
+    
+}
