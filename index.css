@@ -12,10 +12,6 @@ h1 {
   text-align: center;
 }
 
-li > #index {
-  color: black;
-}
-
 ul < #index {
   color: black;
   font-weight: normal;
@@ -25,7 +21,7 @@ ul < #index {
 }
 
 #index {
-  background-color: red;
+  background-color: white;
   height: 15em;
   width: 10em;
   margin: left;
