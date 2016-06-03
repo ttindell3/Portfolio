@@ -24,6 +24,8 @@ ul < #index {
   background-color: white;
   height: 15em;
   width: 10em;
+  border: 2px solid black;
+  border-radius: 5px;
   margin: left;
 }
 
