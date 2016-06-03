@@ -27,7 +27,7 @@ ul < #index {
   margin: left;
 }
 
-a:visted > #index {
+#index:visited {
   color:black;
 }
 #index:hover {
