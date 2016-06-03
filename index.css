@@ -31,9 +31,9 @@ h1 {
   text-align: center;
 }
 
-/*#index > a:visited {
+#index > a:visited {
   color:black;
-}*/
+}
 #index:hover {
   background-color: red;
 }
