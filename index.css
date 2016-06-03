@@ -27,6 +27,10 @@ ul {
   margin: auto;
 }
 
+#index:hover {
+  background-color: blue;
+}
+
 * {
   background-color: yellow;
 }
