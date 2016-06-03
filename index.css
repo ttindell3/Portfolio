@@ -22,19 +22,17 @@ h1 {
 }
 
 #index {
-  a:visited {
-    color: black;
-  }
-  * {
-    background-color: blue;
-  }
-  background-color: white;
+  background-color: blue;
   height: 15em;
   width: 10em;
   border: 2px solid black;
   border-radius: 5px;
   margin: left;
   text-align: center;
+}
+
+#index > a:hover {
+  color: yellow;
 }
 
 #index:hover {
